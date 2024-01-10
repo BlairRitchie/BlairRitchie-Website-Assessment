@@ -1,0 +1,508 @@
+h1{font-family: 'Tilt Neon', sans-serif;}
+h2{font-family: 'Space Grotesk', sans-serif;}
+ul{text-align:center;}
+body{text-align:center;}
+form{font-family: 'Nova Square', sans-serif;}
+
+:root{
+--main-radius:5px;
+--main-padding:5px;  
+}
+
+.CEO{
+  border-radius:50%;}
+
+.COO{
+  border-radius:50%;}
+
+.CFO{
+  border-radius:50%;}
+
+.container{
+  display:grid;
+  height:100vh;
+  grid-template-columns:1fr 1fr 1fr; 
+  grid-template-rows:200px 1fr 1fr 1fr 0.2fr;
+  grid-template-areas: 
+    "nav nav nav"
+   "main main main"
+  "content1 content2 content3"
+   "about about about" 
+  "footer footer footer";
+  grid-gap:0.1rem;
+}
+
+.container-d{
+  display:grid;
+  height:100vh;
+  grid-template-columns:1fr 1fr 1fr; 
+  grid-template-rows:150px 0.5fr 1fr 1fr 0.02fr;
+  grid-template-areas: 
+  "nav nav nav"
+  "main main main"
+  "D-I D-E D-E"
+  "D-F D-F D-V"
+  "footer footer footer";
+  grid-gap:0.1rem;
+}
+
+.container-s{
+  display:grid;
+  height:100vh;
+  grid-template-columns:1fr 1fr 1fr; 
+  grid-template-rows:150px 0.5fr 1fr 1fr 0.02fr;
+  grid-template-areas: 
+  "nav nav nav"
+  "main main main"
+  "S-I S-E S-E"
+  "S-V S-F S-F"
+  "footer footer footer";
+  grid-gap:0.1rem;
+}
+
+.container-m{
+  display:grid;
+  height:100vh;
+  grid-template-columns:1fr 1fr 1fr; 
+  grid-template-rows:150px 0.5fr 0.5fr 1fr 0.02fr;
+  grid-template-areas: 
+  "nav nav nav"
+  "main main main"
+  "M-E M-E M-I"
+  "M-V M-F M-F"
+  "footer footer footer";
+  grid-gap:0.2rem;
+}
+
+.container-r{
+  display:grid;
+  height:100vh;
+  grid-template-columns:1fr 1fr 1fr; 
+  grid-template-rows:150px 0.5fr 1fr 1fr 0.02fr;
+  grid-template-areas: 
+  "nav nav nav"
+  "main main main"
+  "R-F R-F R-I"
+  "R-E R-E R-V"
+  "footer footer footer";
+  grid-gap:0.1rem;
+}
+
+.container-a{
+  display:grid;
+  height:100vh;
+  grid-template-columns:1fr 1fr 1fr; 
+  grid-template-rows:150px 0.5fr 1fr 1fr 1fr 1fr 0.02fr;
+  grid-template-areas: 
+  "nav nav nav"
+  "main main main"
+  "Info Info Info"
+  "A-I E-I E-I"  
+  "O-W H-Y-C-H H-Y-C-H"
+  "W-W-D W-W-D W-W-D"  
+  "footer footer footer";
+  grid-gap:0.1rem;
+}
+
+.container-c{
+  display:grid;
+  height:100vh;
+  grid-template-columns:1fr 1fr 1fr; 
+  grid-template-rows:150px 0.5fr 1fr 1fr 1fr 1fr 0.02fr;
+  grid-template-areas: 
+  "nav nav nav"
+  "main main main"
+  "O-S O-S O-S"
+  "C-F C-F C-F"  
+  "E-M F-B F-B"
+  "O-L O-L O-L"  
+  "footer footer footer";
+  grid-gap:0.1rem;
+}
+
+.bar{
+  padding-right:30px;}
+
+.Gaia{ 
+  height:50px;
+  width:50px; 
+  margin-right:auto;
+float:left;
+}
+ .office1{
+  height:325px;
+   width:100%;
+ }
+
+
+nav
+{
+grid-area:nav;
+background-color:rgba(255,255,255,);
+border:2px solid rgba(0,0,0,1);
+color:rgba(255,255,255,);
+display:block;
+overflow:hidden;
+width:100%;}
+
+
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li a{
+  color:rgba(0,0,0,1);
+  display: block;
+  line-height: 56px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li :hover{
+  background-color:rgba(62, 236, 79, 0.8);
+
+}
+
+nav ul li:hover a{
+  color: rgb(255,255 ,255)
+}
+
+  * {
+ box-sizing: border-box }
+
+
+main{
+  background-color:rgba(53, 189, 108);
+  grid-area: main;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding);  
+}
+
+#Our-Socials{
+  background-color:rgba(53, 189, 108);
+  grid-area:O-S;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#Contact-Form{
+  background-color:rgba(53, 189, 108);
+  grid-area:C-F;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#E-Mail{
+  background-color:rgba(53, 189, 108);
+  grid-area:E-M;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#Facebook{
+    background-color:rgba(53, 189, 108);
+    grid-area:F-B;
+    border-radius:var(--main-radius);
+    padding-top:var(--main-padding); 
+  }
+
+#Our-Location{
+  background-color:rgba(53, 189, 108);
+  grid-area:O-L;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+
+#A-Image{
+  background-color:rgba(53, 189, 108);
+  grid-area:A-I;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#Info{
+  background-color:rgba(53, 189, 108);
+  grid-area:Info;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#Environmental-Issues{
+  background-color:rgba(53, 189, 108);
+  grid-area:E-I;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#What-We-Do{
+  background-color:rgba(53, 189, 108);
+  grid-area:W-W-D;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#How-You-Can-Help{
+  background-color:rgba(53, 189, 108);
+  grid-area:H-Y-C-H;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#Our-Workers{
+  background-color:rgba(53, 189, 108);
+  grid-area:O-W;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#S-Environmental-Issues{
+  background-color:rgba(53, 189, 108);
+  grid-area:S-E;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#S-Facts{
+  background-color:rgba(53, 189, 108);
+  grid-area:S-F;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#S-Image{
+background-color:rgba(53, 189, 108);
+grid-area:S-I;
+border-radius:var(--main-radius);
+padding-top:var(--main-padding); 
+}
+
+#S-Volunteer{
+  background-color:rgba(53, 189, 108);
+  grid-area:S-V;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#R-Environmental-Issues{
+  background-color:rgba(53, 189, 108);
+  grid-area:R-E;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#R-Facts{
+  background-color:rgba(53, 189, 108);
+  grid-area:R-F;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#R-Image{
+  background-color:rgba(53, 189, 108);
+  grid-area:R-I;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#R-Volunteer{
+  background-color:rgba(53, 189, 108);
+  grid-area:R-V;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+
+#M-Image{
+  background-color:rgba(53, 189, 108);
+  grid-area:M-I;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+
+#M-Volunteer{
+  background-color:rgba(53, 189, 108);
+  grid-area:M-V;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#M-Environmental-Issues{
+  background-color:rgba(53, 189, 108);
+  grid-area:M-E;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#M-Facts{
+  background-color:rgba(53, 189, 108);
+  grid-area:M-F;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+
+#D-Volunteer{
+  background-color:rgba(53, 189, 108);
+  grid-area:D-V;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding); 
+}
+
+#D-Environmental-Issues{
+  background-color:rgba(53, 189, 108);
+  grid-area:D-E;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding);  
+}
+
+#D-Facts{
+  background-color:rgba(53, 189, 108);
+  grid-area:D-F;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding);  
+}
+
+#content1{
+  background-color:rgba(255, 255 ,255);
+  color:rgba(62,236,79,1);
+  grid-area:content1;
+  border:solid 2px rgba(53, 189, 108);
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding);  
+}
+
+#content2{
+  background-color:rgba(255, 255 ,255);
+  color:rgba(62,236,79,1);
+  grid-area:content2;
+  border:solid 2px rgba(53, 189, 108);
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding);  
+}
+
+#content3{
+  background-color:rgba(255, 255 ,255);
+  color:rgba(62,236,79,1);
+  grid-area:content3;
+  border:solid 2px rgba(53, 189, 108);
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding);  
+}
+
+#about{
+  background-color:rgba(53,189,108);
+  grid-area:about;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding);  
+  }
+
+footer{
+  background-color:rgba(53, 189, 108);
+  grid-area: footer;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding);  
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .container-a{
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:200px 0.2fr 0.2fr 1fr 1fr 0.5fr 1fr 0.2fr;
+    grid-template-areas:
+      "nav nav"
+      "main main"
+      "Info Info" 
+      "E-I E-I"  
+      "W-W-D W-W-D"
+      "H-Y-C-H H-Y-C-H"
+      "A-I O-W"
+      "footer footer";
+      .office2{
+      width:100%;
+           }
+ }
+
+
+  @media screen and (max-width: 600px) {
+.container{
+grid-template-columns:1fr 1fr;
+grid-template-rows:300px 0.2fr 2fr 100pxfr 0.5fr 0.5fr 1fr;
+grid-template-areas:
+  "nav nav"
+  "main main"
+  "content1 content1" 
+  "content2 content2"  
+  "content3 content3"
+  "about about"
+  "footer footer";
+  .office1{
+  width:100%;
+}
+ } 
+
+    .container-s{
+      grid-template-columns:1fr 1fr;
+      grid-template-rows:200px 0.1fr 0.5fr 0.5fr 1fr 0.2fr;
+      grid-template-areas:
+      "nav nav"                        
+      "main main"
+      "S-E S-E" 
+      "S-I S-F" 
+      "S-V S-V"
+      "footer footer"; 
+      }
+
+.container-c{
+grid-template-columns:1fr 1fr;
+grid-template-rows:300px 0.2fr 2fr 100pxfr 0.5fr 0.5fr 1fr;
+grid-template-areas:
+"nav nav"
+"main main"
+"O-S O-S" 
+"C-F C-F"  
+"E-M F-B"
+"O-L O-L"
+"footer footer";
+}
+
+    .container-d{
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:200px 0.01fr 0.5fr 0.5fr 0.5fr 0.2fr;
+    grid-template-areas:
+    "nav nav"                        
+    "main main"
+    "D-I D-F" 
+    "D-E D-E" 
+    "D-V D-V"
+    "footer footer"; 
+    }
+
+    .container-r{
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:200px 0.1fr 0.5fr 1fr 1fr 0.2fr;
+    grid-template-areas:
+    "nav nav"                        
+    "main main"
+    "R-I R-F" 
+    "R-E R-E" 
+    "R-V R-V"
+    "footer footer"; 
+    }
+
+    .container-m{
+      grid-template-columns:1fr 1fr;
+      grid-template-rows:200px 0.1fr 0.5fr 1fr 1fr 0.2fr;
+      grid-template-areas:
+      "nav nav"                        
+      "main main"
+      "M-I M-F" 
+      "M-E M-E" 
+      "M-V M-V"
+      "footer footer"; 
+    }
+
+  }
