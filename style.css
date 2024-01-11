@@ -408,7 +408,119 @@ footer{
 
 
 @media screen and (max-width: 600px) {
+footer{
+  background-color:rgba(53, 189, 108,0.5);
+}
+  
+main{
+background-color:rgba(53, 189, 108,0.5);
+}
+  
+#about{
+background-color:rgba(53, 189, 108,0.5);
+}
+#Info{
+  background-color:rgba(53, 189, 108,0.5);
+}
+  
+#Environmental-Issues{
+background-color:rgba(53, 189, 108,0.5);
+} 
 
+#What-We-Do{
+background-color:rgba(53, 189, 108,0.5);
+}  
+
+#How-You-Can-Help{
+background-color:rgba(53, 189, 108,0.5);
+}
+
+#Our-Workers{
+background-color:rgba(53, 189, 108,0.5);
+}
+
+#Our-Socials{
+background-color:rgba(53, 189, 108,0.5);
+}
+
+#Contact-Form{
+background-color:rgba(53, 189, 108,0.5);
+}
+
+#E-Mail{
+  background-color:rgba(53, 189, 108,0.5);
+}  
+
+#Facebook{
+  background-color:rgba(53, 189, 108,0.5);
+} 
+
+#Our-Location{
+  background-color:rgba(53, 189, 108,0.5);
+} 
+
+#R-Image{
+  background-color:rgba(53, 189, 108,0.5);
+}  
+
+#R-Facts{
+  background-color:rgba(53, 189, 108,0.5);
+}  
+  
+#R-Environmental-Issues{
+  background-color:rgba(53, 189, 108,0.5);
+}  
+#R-Facts{
+  background-color:rgba(53, 189, 108,0.5);
+}
+
+#R-Volunteer{
+background-color:rgba(53, 189, 108,0.5);
+} 
+
+#D-Facts{
+  background-color:rgba(53, 189, 108,0.5);
+}  
+
+#D-Environmental-Issues{
+background-color:rgba(53, 189, 108,0.5);
+} 
+
+#D-Volunteer{
+background-color:rgba(53, 189, 108,0.5);
+}
+
+#S-Image{
+  background-color:rgba(53, 189, 108,0.5);
+}
+
+#S-Environmental-Issues{
+  background-color:rgba(53, 189, 108,0.5);
+}
+
+#S-Facts{
+  background-color:rgba(53, 189, 108,0.5);
+}  
+
+#S-Volunteer{
+  background-color:rgba(53, 189, 108,0.5);
+}
+
+#M-Image{
+  background-color:rgba(53, 189, 108,0.5);
+}  
+
+#M-Facts{
+  background-color:rgba(53, 189, 108,0.5);
+}  
+
+#M-Environmental-Issues{
+  background-color:rgba(53, 189, 108,0.5);
+}
+
+#M-Volunteer{
+ background-color:rgba(53, 189, 108,0.5);
+}  
   .container-a{
     grid-template-columns:1fr 1fr;
     grid-template-rows:200px 0.2fr 0.2fr 1fr 1fr 0.5fr 1fr 0.2fr;
